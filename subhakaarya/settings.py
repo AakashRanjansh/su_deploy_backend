@@ -20,9 +20,9 @@ SECRET_KEY = "$fjka-secure-$6rbw73vq4&hiffkll7=7x&2#n%ew!z_!5mn=nv09bcz3!tfce"
 
 
 if DEBUG:
-    ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+    ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.vercel.app']
 else:
-    ALLOWED_HOSTS = ['.subhakaarya.com']
+    ALLOWED_HOSTS = ['.subhakaarya.com', '.vercel.app']
 
 CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1:5173',
